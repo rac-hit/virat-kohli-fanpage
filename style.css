@@ -1,0 +1,218 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header
+{
+	/*change the opacity of the background to see the menu clearly*/
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(vk.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-navi
+{
+	/*the navigation bar should be properly instilled in the middle*/
+	float: right;
+	list-style: none;
+	margin top: 30px;
+	padding-top: 20px;
+}
+
+.main-navi li
+{
+	display: inline-block;
+}
+
+.main-navi li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.main-navi li.current a
+{
+	border: 1px solid white;
+}
+	
+.main-navi li a:hover
+{
+	border: 1px solid white;
+}	
+
+.logo img
+{	
+	padding-top: 5px;
+	margin-left:10px;
+	width: 30px;
+	height: 30px;
+	float: left;
+
+}
+
+.body
+{
+	font-family: monospace;
+}
+
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+	background-color: black;
+	
+}
+
+.clearfix1 {
+    background: #333;
+    z-index: 99;
+	display: inline-block;
+	
+}
+
+.middle {
+    text-align: center;
+}
+.nav {
+    width: 100%;
+    height: 40px;
+    float: left;
+	display: inline-block;
+}
+
+.left {
+    text-align: left;
+}
+.menubar {
+    height: 40px;
+    width: 100%;
+    background: #333333;
+    margin: 0;
+    position: fixed;
+    z-index: 99;
+}
+
+.main-navi
+{
+	/*the navigation bar should be properly instilled in the middle*/
+	float: right;
+	list-style: none;
+	margin top: 30px;
+	padding-top: 20px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+	float: right;	
+	padding: 10px;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font family: "Roboto", sans-serif;
+	font-size: 17px;
+	
+}
+
+.main-nav li.current a
+{
+	border: 1px solid white;
+}
+	
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}	
+.slideshow-container {
+	top: 80%;
+  position: relative;
+  background: black;
+  opacity: 0.6;
+}
+.slideshow-container:hover
+{
+	background-color: black;
+	opacity: 1;
+	
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+	margin-top: 39%;
+    text-align: center;
+    padding: 10px;
+    background: black;
+
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;
+	color: white;
+	}
+
+/* Add a blue color to the author */
+.author {color: white;}

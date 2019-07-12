@@ -1,0 +1,38 @@
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+	
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.st {width: 100%; background-color: blue;}
+.rp {width: 71%; background-color: #CCCC00; }
+.vk {width: 66%; background-color: blue;}
+.ks {width: 63%; background-color: #00008B;}
+.jk {width: 62%; background-color: #228B22;}
+.ha {width: 55%; background-color: #228B22;}
+.mj {width: 54%; background-color: #00008B;}
+.bl {width: 53%; background-color: #8B0000;}
+.rd {width: 48%; background-color: blue;}
+.abd {width: 47%; background-color: #228B22;}
+	p
+	{
+		font-size: 20px;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		color: white;
+	}
+	h1
+	{
+		color: white;
+		padding-bottom: 5px;
+		text-align: center;
+		padding-top: 10px;
+	}
